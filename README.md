@@ -1,2 +1,3 @@
-# cirrus.uploadFileOutputMd
-Directive that uploads file and outputs markdown inline image   
+An Angular.js directive that uploads file and outputs markdown inline image   
+
+
