@@ -1,0 +1,22 @@
+{
+  "name" : "cirrus.uploadFileOutputMd",
+  "version" : "0.0.1",
+  "main" : [
+    "cirrus.uploadFileOutputMd.js"
+  ],
+  "homepage" : "https://github.com/CirrusCPQ/cirrus.uploadFileOutputMd",
+  "authors": [
+    "Andrew Yu <andrew.yu@cirruscpq.com>",
+    "Erich Rusch <erich.rusch@cirruscpq.com>",
+    "Jason Manners <jason.manners@cirruscpq.com>" 
+  ],
+  "ignore" : [],
+  "keywords": [
+    "angular",
+    "fileupload",
+    "markdown"
+  ],
+  "dependencies" : {
+    "ng-file-upload": "latest"
+  }
+}
