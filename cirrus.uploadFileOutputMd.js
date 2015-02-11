@@ -1,5 +1,5 @@
 angular.module('cirrus.uploadFileOutputMd')
-  .directive('uploadFileOutputMd', ['$upload', '$timeout', function($upload, $timeout){
+  .directive('uploadFileOutputMd', ['$upload', '$timeout', 'uploadData', function($upload, $timeout, uploadData){
     return {
       scope : {
         comment        : '=',
@@ -22,7 +22,7 @@ angular.module('cirrus.uploadFileOutputMd')
             // If file is image, continue
             else {
               $upload.upload({
-                url      : '/api/stories/uploadFileOnComment',
+                url      : uploadData.url,
                 file     : file,
                 progress : function(e){}
               }).then(function(data, status, headers, config){
@@ -45,7 +45,7 @@ angular.module('cirrus.uploadFileOutputMd')
 
             }
           });
-        });
+        });`
 
         scope.checkIfImage = function(file){
           var validImageTypes = ['jpg', 'jpeg', 'png', 'gif'];
