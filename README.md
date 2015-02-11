@@ -1,5 +1,5 @@
 An Angular.js directive that uploads file and outputs markdown inline image   
-Requires `angular-file-upload` (https://github.com/danialfarid/angular-file-upload) for file uploading portion
+Requires [angular-file-upload](https://github.com/danialfarid/angular-file-upload) for file uploading portion, included in `bower.json`
 
 ## Installation 
 
