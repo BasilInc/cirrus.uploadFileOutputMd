@@ -9,8 +9,10 @@ Requires `angular-file-upload` (https://github.com/danialfarid/angular-file-uplo
 
 Configure upload url using factory/provider
 
-```angular.module('cirrus.uploadFileOutputMd').factory('uploadData', function(){
+```
+angular.module('cirrus.uploadFileOutputMd').factory('uploadData', function(){
   return {
     url : '/upload/url'
   }
-});```
+});
+```
